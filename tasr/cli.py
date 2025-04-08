@@ -33,6 +33,7 @@ def recognize_audio(audio_file, language="auto"):
         model="danieldong/sensevoice-small-onnx-quant",
         vad_model="fsmn-vad",
         vad_kwargs={"max_single_segment_time": 30000},
+        punc_model="iic/punc_ct-transformer_zh-cn-common-vocab272727-pytorch",
         device=device,
         disable_update=True
     )
