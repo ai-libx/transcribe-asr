@@ -24,6 +24,8 @@ Install Demucs (Optional, only required for noise reduction):
 pip install demucs
 ```
 
+*The model files will be automatically downloaded to the local machine upon first use.*
+
 ## Usage
 
 ### Basic Usage
